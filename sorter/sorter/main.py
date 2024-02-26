@@ -187,7 +187,7 @@ def console_script():
         None
     """
     if len(sys.argv) != 2:
-        print("Usage: clean_folder <path_to_folder>")
+        print("Usage: file-sorter <path_to_folder>")
         sys.exit(1)
 
     main(sys.argv[1])
